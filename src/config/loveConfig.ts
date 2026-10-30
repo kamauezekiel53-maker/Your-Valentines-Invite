@@ -1,5 +1,5 @@
 // Personal settings for the Valentine's invite.
-// Add the actual relationship start date to enable the elapsed-time counter.
+// Relationship start is recorded in Kenya time (East Africa Time, UTC+3).
 export interface Milestone {
   title: string;
   date: string;
@@ -9,7 +9,7 @@ export interface Milestone {
 export const loveConfig = {
   yourName: "Ezekiel",
   partnerName: "Preciously",
-  relationshipStart: "",
+  relationshipStart: "2026-08-16T00:00:00+03:00",
   valentineDate: "2027-02-14",
   heroHeadline: "To My Dearest Preciously",
   heroSubtext: "A little space made to celebrate you, our memories, and the moments still ahead.",
